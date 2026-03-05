@@ -1,6 +1,6 @@
 'use client'
 
-import { ArrowRight, Linkedin, Mail } from 'lucide-react'
+import { ArrowRight, Linkedin, Mail, Twitter } from 'lucide-react'
 import Link from 'next/link'
 import Image from 'next/image'
 
@@ -37,10 +37,16 @@ export function Hero() {
                 <Linkedin className="w-4 sm:w-5 h-4 sm:h-5" />
                 <span className="text-xs sm:text-sm font-medium group-hover:underline">LinkedIn</span>
               </a>
+              <a href="https://twitter.com/JenniferJoeMD" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors">
+                <Twitter className="w-4 sm:w-5 h-4 sm:h-5" />
+                <span className="text-xs sm:text-sm font-medium group-hover:underline">Twitter</span>
+              </a>
               <a href="mailto:contact@jenniferjoe.com" className="group flex items-center gap-2 text-muted-foreground hover:text-accent transition-colors">
                 <Mail className="w-4 sm:w-5 h-4 sm:h-5" />
                 <span className="text-xs sm:text-sm font-medium group-hover:underline">Email</span>
               </a>
+
+
             </div>
 
             {/* Key Stats */}
